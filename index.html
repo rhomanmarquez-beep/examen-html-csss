@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>solicitud de matricula</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <section id="matricula">
+            <div class="container">
+                <h2>solicitud de matricula</h2>
+                <p class="form-description">por favor completa el siguiente formulario para solicitar tu matricula en nuestros cursos.</p>
+
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="nombre">nombre completo</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="rhoman felippe" required>
+                    </div>
+
+                    <div class="form-group" >
+                        <label for="correo">correo electronico</label>
+                        <input type="email" id="correo" name="correo" placeholder="rhoman@example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="telefono">telefono</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="123-456-7890" required>
+                    </div>
+
+                    <div>
+                        <label for="cursos">cursos</label>
+                        <select id="cursos" name="cursos" required>
+                            <option value="" disabled selected>selecciona un curso</option>
+                            <option value="curso1">carro</option>
+                            <option value="curso2">moto</option>
+                            <option value="curso3">mixto</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group" full-width>
+                        <label for="mensaje">mensaje</label>
+                        <textarea id="mensaje" name="mensaje" placeholder="escribe tu mensaje aqui..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="sumit-btn">enviar solicitud</button>
+                </form>
+            </div>
+        </section>
+    
+
+
+
+</body>
+</html>
